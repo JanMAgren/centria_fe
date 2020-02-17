@@ -1,0 +1,86 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.card{
+	max-width: 18em;
+}
+
+#carouselDiv{
+	margin-top:4em;
+	display: none;
+	padding:0;
+	height:85vh;
+}
+
+#sourceDiv{
+	margin-top:5em;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+	width:5em;
+	margin-top:2em;
+	height:81vh;
+	min-height: 81vh;
+	background-color: #cccc;
+	  z-index:0;
+}
+
+.carousel-inner{
+	height:90%;
+	padding:1em;
+}
+
+.footer{
+	position:fixed;
+	bottom:0;
+	background-color: black;
+	width: 100%;
+	padding:5px;
+	height:2em;
+	left:0;
+	color:white;
+	text-align:center;
+}
+
+.carousel-item > img{
+	max-height:50%;
+	max-width: 50%;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    height:90%;
+		color:black;
+		margin-top:1em;
+}
+
+@media (max-width: 992px) {
+    .carousel-control-prev,
+    .carousel-control-next{
+    	width:1em;
+    	margin-top: 0;
+    }
+
+    .carousel-item > img{
+	max-height:50%;
+	max-width: 90%;
+    }
+
+    .lead{
+    	font-size:0.9em;
+    }
+
+}
+
+@media (max-width: 350px) { }
+
+    .lead{
+    	font-size:0.8em;
+    }
+
+}

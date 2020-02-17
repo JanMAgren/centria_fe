@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="/styles/bootstrap4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/styles/css/fakenews.css" rel="stylesheet" type="text/css">
+		<script src="/styles/jquery-3.2.1.min.js"></script>
+		<script src="/styles/bootstrap4.3.1/js/bootstrap.bundle.min.js"></script>
+		<script src="/styles/common.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+		<meta name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<title> Valeuutiset </title>
+	</head>
+	<body>
+		<header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">News</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" onclick="returnToMainPage();">Main page</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+		<div class="container-fluid" id="wrapper">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" id="mainContent">
+					<div class="row">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="sourceDiv">
+        			<div class="container">
+          			<div class="row d-flex justify-content-center" id="albumRow">
+          			</div>
+        			</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="carouselDiv">
+							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  							<div class="carousel-inner" id="innerCarousel">
+  							</div>
+  							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    							<span class="sr-only">Previous</span>
+  							</a>
+  							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    							<span class="sr-only">Next</span>
+  							</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<footer class="footer">
+						<div class="container">
+							<a class="text-muted" href="https://newsapi.org">Powered by NewsAPI</span>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
